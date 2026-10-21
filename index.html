@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Petipua Backups</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8faf9;
+      color: #26352f;
+      margin: 0;
+      padding: 50px 20px;
+      line-height: 1.7;
+    }
+    main {
+      max-width: 760px;
+      margin: auto;
+      background: white;
+      padding: 40px;
+      border-radius: 14px;
+      box-shadow: 0 5px 25px #0000000a;
+    }
+    h1 { color: #316e51; }
+    a { color: #316e51; }
+    footer {
+      margin-top: 35px;
+      font-size: 14px;
+      color: #65746c;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Petipua Backups</h1>
+
+    <p>
+      Petipua Backups es una herramienta de uso privado
+      destinada a la gestión de copias de seguridad
+      del proyecto Petipuá.
+    </p>
+
+    <h2>Finalidad</h2>
+    <p>
+      La herramienta utiliza Google Drive mediante OAuth 2.0
+      para almacenar y recuperar archivos de respaldo
+      cifrados previamente en el equipo del usuario.
+    </p>
+
+    <h2>Acceso a Google Drive</h2>
+    <p>
+      La integración utiliza el permiso drive.file,
+      limitado a los archivos autorizados para
+      esta aplicación.
+    </p>
+
+    <h2>Seguridad</h2>
+    <p>
+      Los archivos de respaldo se cifran localmente
+      mediante rclone crypt antes de su transferencia.
+      Las claves de cifrado no se publican en este sitio.
+    </p>
+
+    <h2>Privacidad</h2>
+    <p>
+      Consulta nuestra
+      <a href="privacy.html">Política de privacidad</a>.
+    </p>
+
+    <footer>
+      Petipua Backups · Herramienta interna
+      de administración de respaldos.
+    </footer>
+  </main>
+</body>
+</html>
